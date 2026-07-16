@@ -4,7 +4,7 @@ export const metadata = {
   title: "Sakuraku: Belajar Bahasa Jepang Seperti Bermain!",
   description:
     "Belajar bahasa Jepang selangkah demi selangkah, mulai dari nol sampai jago. Latihan interaktif, gamifikasi, dan progress tracking.",
-  alternates: { canonical: "https://test.sakuraku.id/" },
+  alternates: { canonical: "https://sakuraku.id/" },
 };
 
 const features = [
@@ -41,13 +41,13 @@ export default function LandingPage() {
           </h1>
           <div className="flex gap-2 items-center font-bold mt-8">
             <a
-              href="https://test.sakuraku.id/login"
+              href="https://sakuraku.id/login"
               className="py-3 px-5 border border-black inter-bold rounded-lg bg-black text-white"
             >
               Masuk
             </a>
             <a
-              href="https://test.sakuraku.id/register"
+              href="https://sakuraku.id/register"
               className="py-3 px-5 border border-black inter-bold rounded-lg bg-white text-black"
             >
               Daftar
@@ -55,7 +55,7 @@ export default function LandingPage() {
           </div>
           <div className="mt-4">
             <a
-              href="https://test.sakuraku.id/dashboard"
+              href="https://sakuraku.id/dashboard"
               className="text-primary-indigo inter-bold"
             >
               Lanjutkan sebagai tamu
@@ -283,13 +283,13 @@ export default function LandingPage() {
         </h2>
         <div className="flex gap-2 items-center font-bold mt-8">
           <a
-            href="https://test.sakuraku.id/login"
+            href="https://sakuraku.id/login"
             className="min-w-[153px] inter-bold p-[10px] border border-black rounded-lg bg-black text-white text-center"
           >
             Masuk
           </a>
           <a
-            href="https://test.sakuraku.id/register"
+            href="https://sakuraku.id/register"
             className="min-w-[153px] inter-bold p-[10px] border border-black rounded-lg bg-white text-black text-center"
           >
             Daftar

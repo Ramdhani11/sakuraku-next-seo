@@ -1,8 +1,9 @@
 // lib/articles.js — server-only helpers untuk data artikel
 
-const BASE =
-  process.env.NEXT_PUBLIC_API_URL_BASE ??
-  "https://api-test.sakuraku.id/api/v1/";
+// const BASE =
+//   process.env.NEXT_PUBLIC_API_URL_BASE ?? "https://api-sakuraku.id/api/v1/";
+
+const BASE = "https://api.sakuraku.id/api/v1/";
 
 export function titleToSlug(title = "") {
   return title.toLowerCase().replace(/:/g, "").replace(/ /g, "-");

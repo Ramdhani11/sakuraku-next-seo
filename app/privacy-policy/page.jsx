@@ -2,7 +2,7 @@ export const metadata = {
   title: "Kebijakan Privasi | Sakuraku",
   description:
     "Kebijakan privasi Sakuraku — bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi kamu.",
-  alternates: { canonical: "https://test.sakuraku.id/privacy-policy" },
+  alternates: { canonical: "https://sakuraku.id/privacy-policy" },
 };
 
 const sections = [

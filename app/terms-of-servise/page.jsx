@@ -3,7 +3,7 @@ export const metadata = {
   title: "Syarat dan Ketentuan Layanan | Sakuraku",
   description:
     "Syarat dan ketentuan penggunaan platform Sakuraku. Dengan menggunakan layanan kami, kamu setuju untuk terikat oleh ketentuan ini.",
-  alternates: { canonical: "https://test.sakuraku.id/terms-of-servise" },
+  alternates: { canonical: "https://sakuraku.id/terms-of-servise" },
 };
 
 const sections = [
@@ -94,9 +94,9 @@ export default function TermsOfServisePage() {
 
         <p className="inter-regular text-dark-gray-text mb-8">
           Selamat datang di Sakuraku. Ketentuan Layanan ini mengatur akses dan
-          penggunaan kamu atas situs web kami (https://test.sakuraku.id) dan
-          layanan kami. Dengan membuat akun atau menggunakan Layanan kami, kamu
-          setuju untuk terikat oleh Ketentuan ini.
+          penggunaan kamu atas situs web kami (https://sakuraku.id) dan layanan
+          kami. Dengan membuat akun atau menggunakan Layanan kami, kamu setuju
+          untuk terikat oleh Ketentuan ini.
         </p>
 
         <div className="w-full flex flex-col gap-8">

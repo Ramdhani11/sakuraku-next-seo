@@ -12,7 +12,7 @@ import {
 import ArticleTooltip from "./ArticleTooltip";
 import { buildVocabList, processHtmlWithFurigana } from "./Furigana";
 
-const SITE_URL = "https://test.sakuraku.id";
+const SITE_URL = "https://sakuraku.id";
 
 export const dynamicParams = false;
 
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
     article?.content,
     `Baca artikel bahasa Jepang "${title}" di Sakuraku dengan fitur tooltip furigana.`,
   );
-  const url = `${SITE_URL}/article/${slug}`;
+  const url = `https://api.sakuraku.id/article/${slug}`;
 
   return {
     title: `${title} | Artikel Sakuraku`,

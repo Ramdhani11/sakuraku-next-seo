@@ -17,7 +17,7 @@ export default function Navbar() {
           Subscribe
         </Link>
         <a
-          href="https://test.sakuraku.id/login"
+          href="https://sakuraku.id/login"
           className="inter-bold text-gray-700 hover:text-primary-color-sk"
         >
           Login

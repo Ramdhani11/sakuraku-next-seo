@@ -10,7 +10,7 @@ export const metadata = {
   title: "Artikel Bahasa Jepang | Sakuraku",
   description:
     "Latihan membaca artikel bahasa Jepang dengan tooltip furigana. Baca artikel dengan mudah, tanpa harus buka kamus terpisah.",
-  alternates: { canonical: "https://test.sakuraku.id/articles" },
+  alternates: { canonical: "https://sakuraku.id/articles" },
 };
 
 const levelColors = {

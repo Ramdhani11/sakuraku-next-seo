@@ -2,7 +2,7 @@ export const metadata = {
   title: "Harga Berlangganan Sakuraku | Kuasai Bahasa Jepang",
   description:
     "Mulai belajar bahasa Jepang dengan harga terjangkau. Sistem harga bertingkat — semakin awal berlangganan, semakin murah harganya untuk selamanya.",
-  alternates: { canonical: "https://test.sakuraku.id/pricing" },
+  alternates: { canonical: "https://sakuraku.id/pricing" },
 };
 
 const tiers = [
@@ -44,18 +44,15 @@ function monthLabel(count) {
 
 async function getCurrentPrice() {
   try {
-    const guestRes = await fetch(
-      "https://api-test.sakuraku.id/api/v1/guest_login",
-      {
-        method: "POST",
-        next: { revalidate: 3600 },
-      },
-    );
+    const guestRes = await fetch("https://api-sakuraku.id/api/v1/guest_login", {
+      method: "POST",
+      next: { revalidate: 3600 },
+    });
     const guestToken = guestRes.headers.get("authorization");
     if (!guestToken) return null;
 
     const priceRes = await fetch(
-      "https://api-test.sakuraku.id/api/v1/customer_eligible_price",
+      "https://api-sakuraku.id/api/v1/customer_eligible_price",
       {
         method: "POST",
         headers: {
@@ -110,7 +107,7 @@ export default async function PricingPage() {
             </p>
           </div>
           <a
-            href="https://test.sakuraku.id/login"
+            href="https://sakuraku.id/login"
             className="shrink-0 text-center py-2 px-5 rounded-lg border-2 border-black inter-bold text-sm"
           >
             Mode Gratis
@@ -197,7 +194,7 @@ export default async function PricingPage() {
                   )}
 
                   <a
-                    href="https://test.sakuraku.id/login"
+                    href="https://sakuraku.id/login"
                     className={`mt-4 w-full text-center py-2 rounded-lg inter-bold text-sm ${
                       isBest
                         ? "bg-white text-primary-color-sk"

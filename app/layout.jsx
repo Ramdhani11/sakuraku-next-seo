@@ -6,12 +6,12 @@ export const metadata = {
   title: "Sakuraku: Belajar & Latihan Bahasa Jepang",
   description:
     "Belajar bahasa Jepang dengan mudah dan interaktif di Sakuraku. Mulai latihan sekarang secara gratis.",
-  metadataBase: new URL("https://test.sakuraku.id"),
+  metadataBase: new URL("https://sakuraku.id"),
   openGraph: {
     title: "Sakuraku - Belajar Bahasa Jepang",
     description:
       "Belajar bahasa Jepang dengan mudah dan interaktif di Sakuraku.",
-    url: "https://test.sakuraku.id",
+    url: "https://sakuraku.id",
     type: "website",
     images: [
       {
