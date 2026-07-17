@@ -238,6 +238,41 @@ html {
   margin-top: 12px;
   font-size: 24px;
 }
+.article_content h3 {
+  font-weight: 600;
+  margin-top: 12px;
+  font-size: 20px;
+}
 .article_content img {
   margin-top: 20px;
+}
+.article_content ul {
+  /* margin-top: 20px; */
+  list-style-type: disc;
+  padding-left: 20px;
+}
+/* .article_content blockquote {
+  margin: 20px 0;
+  padding: 12px 20px;
+  border-left: 3px solid #9d174d;
+  background: #fdf2f8;
+  font-style: italic;
+  color: #4b5563;
+  border-radius: 0 8px 8px 0;
+}
+
+.article_content blockquote p {
+  margin: 0;
+} */
+
+.article_content blockquote {
+  margin: 16px 0;
+  padding-left: 16px;
+  border-left: 3px solid #e5e5e5;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.article_content blockquote p {
+  margin: 0;
 }
