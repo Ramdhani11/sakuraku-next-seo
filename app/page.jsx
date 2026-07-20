@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { siteUrl } from "../src/utils/siteUrl";
 
 export const metadata = {
   title: "Sakuraku: Belajar Bahasa Jepang Seperti Bermain!",
   description:
     "Belajar bahasa Jepang selangkah demi selangkah, mulai dari nol sampai jago. Latihan interaktif, gamifikasi, dan progress tracking.",
-  alternates: { canonical: "https://test.sakuraku.id/" },
+  alternates: { canonical: siteUrl },
 };
 
 const features = [
@@ -41,13 +42,13 @@ export default function LandingPage() {
           </h1>
           <div className="flex gap-2 items-center font-bold mt-8">
             <a
-              href="https://test.sakuraku.id/login"
+              href={siteUrl + "/login"}
               className="py-3 px-5 border border-black inter-bold rounded-lg bg-black text-white"
             >
               Masuk
             </a>
             <a
-              href="https://test.sakuraku.id/register"
+              href={siteUrl + "/register"}
               className="py-3 px-5 border border-black inter-bold rounded-lg bg-white text-black"
             >
               Daftar
@@ -55,7 +56,7 @@ export default function LandingPage() {
           </div>
           <div className="mt-4">
             <a
-              href="https://test.sakuraku.id/dashboard"
+              href={siteUrl + "/dashboard?guest=true"}
               className="text-primary-indigo inter-bold"
             >
               Lanjutkan sebagai tamu
@@ -283,13 +284,13 @@ export default function LandingPage() {
         </h2>
         <div className="flex gap-2 items-center font-bold mt-8">
           <a
-            href="https://test.sakuraku.id/login"
+            href={siteUrl + "/login"}
             className="min-w-[153px] inter-bold p-[10px] border border-black rounded-lg bg-black text-white text-center"
           >
             Masuk
           </a>
           <a
-            href="https://test.sakuraku.id/register"
+            href={siteUrl + "/register"}
             className="min-w-[153px] inter-bold p-[10px] border border-black rounded-lg bg-white text-black text-center"
           >
             Daftar

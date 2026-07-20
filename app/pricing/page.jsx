@@ -1,8 +1,10 @@
+import { siteUrl } from "../../src/utils/siteUrl";
+
 export const metadata = {
   title: "Harga Berlangganan Sakuraku | Kuasai Bahasa Jepang",
   description:
     "Mulai belajar bahasa Jepang dengan harga terjangkau. Sistem harga bertingkat — semakin awal berlangganan, semakin murah harganya untuk selamanya.",
-  alternates: { canonical: "https://test.sakuraku.id/pricing" },
+  alternates: { canonical: siteUrl + "/pricing" },
 };
 
 const tiers = [
@@ -110,7 +112,7 @@ export default async function PricingPage() {
             </p>
           </div>
           <a
-            href="https://test.sakuraku.id/login"
+            href={siteUrl + "/login"}
             className="shrink-0 text-center py-2 px-5 rounded-lg border-2 border-black inter-bold text-sm"
           >
             Mode Gratis
@@ -197,7 +199,7 @@ export default async function PricingPage() {
                   )}
 
                   <a
-                    href="https://test.sakuraku.id/login"
+                    href={siteUrl + "/login"}
                     className={`mt-4 w-full text-center py-2 rounded-lg inter-bold text-sm ${
                       isBest
                         ? "bg-white text-primary-color-sk"

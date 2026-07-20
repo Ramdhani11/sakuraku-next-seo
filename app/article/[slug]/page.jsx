@@ -11,8 +11,9 @@ import {
 } from "./ArticleContent";
 import ArticleTooltip from "./ArticleTooltip";
 import { buildVocabList, processHtmlWithFurigana } from "./Furigana";
+import { siteUrl } from "../../../src/utils/siteUrl";
 
-const SITE_URL = "https://test.sakuraku.id";
+const SITE_URL = siteUrl;
 
 export const dynamicParams = false;
 

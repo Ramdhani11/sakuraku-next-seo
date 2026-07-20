@@ -1,8 +1,10 @@
+import { siteUrl } from "../../src/utils/siteUrl";
+
 export const metadata = {
   title: "Tentang Kami | Sakuraku",
   description:
     "PT. Satu Nol Tujuh — pendiri Sakuraku. Platform belajar bahasa Jepang yang dibangun oleh tim engineer profesional sejak 2018.",
-  alternates: { canonical: "https://test.sakuraku.id/about-us" },
+  alternates: { canonical: siteUrl + "/about-us" },
 };
 
 export default function AboutUsPage() {

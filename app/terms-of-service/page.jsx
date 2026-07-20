@@ -1,9 +1,11 @@
+import { siteUrl } from "../../src/utils/siteUrl";
+
 // NOTE: Route is /terms-of-servise (typo preserved to match existing SPA route)
 export const metadata = {
   title: "Syarat dan Ketentuan Layanan | Sakuraku",
   description:
     "Syarat dan ketentuan penggunaan platform Sakuraku. Dengan menggunakan layanan kami, kamu setuju untuk terikat oleh ketentuan ini.",
-  alternates: { canonical: "https://test.sakuraku.id/terms-of-servise" },
+  alternates: { canonical: siteUrl + "/terms-of-service" },
 };
 
 const sections = [
@@ -84,7 +86,7 @@ const sections = [
   },
 ];
 
-export default function TermsOfServisePage() {
+export default function TermsOfServicePage() {
   return (
     <main className="w-full bg-light-gray min-h-screen">
       <div className="w-full p-4 sm:p-8 lg:p-12 bg-white max-w-4xl mx-auto my-4 rounded-2xl text-[16px]">
@@ -94,9 +96,9 @@ export default function TermsOfServisePage() {
 
         <p className="inter-regular text-dark-gray-text mb-8">
           Selamat datang di Sakuraku. Ketentuan Layanan ini mengatur akses dan
-          penggunaan kamu atas situs web kami (https://test.sakuraku.id) dan
-          layanan kami. Dengan membuat akun atau menggunakan Layanan kami, kamu
-          setuju untuk terikat oleh Ketentuan ini.
+          penggunaan kamu atas situs web kami ({siteUrl}) dan layanan kami.
+          Dengan membuat akun atau menggunakan Layanan kami, kamu setuju untuk
+          terikat oleh Ketentuan ini.
         </p>
 
         <div className="w-full flex flex-col gap-8">

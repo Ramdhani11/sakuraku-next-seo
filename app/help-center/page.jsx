@@ -1,10 +1,11 @@
+import { siteUrl } from "../../src/utils/siteUrl";
 import HelpCenterTabs from "./HelpCenterTabs";
 
 export const metadata = {
   title: "Pusat Bantuan | Sakuraku",
   description:
     "Temukan panduan lengkap penggunaan Sakuraku: cara latihan, cara berlangganan, dan semua pertanyaan umum.",
-  alternates: { canonical: "https://test.sakuraku.id/help-center" },
+  alternates: { canonical: siteUrl + "/help-center" },
 };
 
 const helpData = [

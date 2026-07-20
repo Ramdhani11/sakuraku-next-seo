@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { siteUrl } from "../utils/siteUrl";
 
 export default function Navbar() {
   return (
@@ -17,7 +18,7 @@ export default function Navbar() {
           Subscribe
         </Link>
         <a
-          href="https://test.sakuraku.id/login"
+          href={siteUrl + "/login"}
           className="inter-bold text-gray-700 hover:text-primary-color-sk"
         >
           Login

@@ -1,3 +1,4 @@
+import { siteUrl } from "../../src/utils/siteUrl";
 import FAQAccordion from "./FAQAccordion";
 import Link from "next/link";
 
@@ -5,7 +6,7 @@ export const metadata = {
   title: "FAQ - Pertanyaan yang Sering Diajukan | Sakuraku",
   description:
     "Temukan jawaban atas pertanyaan umum seputar Sakuraku: cara berlangganan, harga, fitur latihan, dan lebih banyak lagi.",
-  alternates: { canonical: "https://test.sakuraku.id/faq" },
+  alternates: { canonical: siteUrl + "/faq" },
 };
 
 const faqItems = [

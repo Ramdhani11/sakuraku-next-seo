@@ -1,17 +1,18 @@
 import "./globals.css";
 import Navbar from "../src/components/Navbar";
 import Footer from "../src/components/Footer";
+import { siteUrl } from "../src/utils/siteUrl";
 
 export const metadata = {
   title: "Sakuraku: Belajar & Latihan Bahasa Jepang",
   description:
     "Belajar bahasa Jepang dengan mudah dan interaktif di Sakuraku. Mulai latihan sekarang secara gratis.",
-  metadataBase: new URL("https://test.sakuraku.id"),
+  metadataBase: new URL(siteUrl),
   openGraph: {
     title: "Sakuraku - Belajar Bahasa Jepang",
     description:
       "Belajar bahasa Jepang dengan mudah dan interaktif di Sakuraku.",
-    url: "https://test.sakuraku.id",
+    url: siteUrl,
     type: "website",
     images: [
       {

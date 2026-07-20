@@ -1,8 +1,10 @@
+import { siteUrl } from "../../src/utils/siteUrl";
+
 export const metadata = {
   title: "Kebijakan Privasi | Sakuraku",
   description:
     "Kebijakan privasi Sakuraku — bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi kamu.",
-  alternates: { canonical: "https://test.sakuraku.id/privacy-policy" },
+  alternates: { canonical: siteUrl + "/privacy-policy" },
 };
 
 const sections = [
